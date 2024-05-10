@@ -1,5 +1,5 @@
-## Introduction
-The official GitHub page for paper "NegativePrompt: Leveraging Psychology for Large Language Models Enhancement via Negative Emotional Stimuli".
+# NegativePrompt
+Code release for [NegativePrompt: Leveraging Psychology for Large Language Models Enhancement via Negative Emotional Stimuli](https://arxiv.org/abs/2405.02814) (IJCAI 2024)
 
 ## Installation
 
@@ -31,3 +31,15 @@ pip install -r requirements.txt
 python main.py --task task_name --model model_name --pnum negativeprompt_id --few_shot False
 ```
 
+## Citation
+Please cite us if you find this project helpful for your research:
+```
+@misc{wang2024negativeprompt,
+      title={NegativePrompt: Leveraging Psychology for Large Language Models Enhancement via Negative Emotional Stimuli}, 
+      author={Xu Wang and Cheng Li and Yi Chang and Jindong Wang and Yuan Wu},
+      year={2024},
+      eprint={2405.02814},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
